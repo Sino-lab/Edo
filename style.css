@@ -73,7 +73,7 @@ nav.scrolled { border-bottom-color: var(--border2); }
 }
 
 .nav-links a {
-  font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  font-size: 14px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
   color: var(--text-dim); text-decoration: none; transition: color 0.2s;
   padding-bottom: 2px; position: relative;
 }
@@ -152,7 +152,7 @@ nav.scrolled { border-bottom-color: var(--border2); }
 }
 
 .hero-pre {
-  font-size: 12px; font-weight: 700; letter-spacing: 6px; text-transform: uppercase;
+  font-size: 14px; font-weight: 700; letter-spacing: 6px; text-transform: uppercase;
   color: var(--text-dim); margin-bottom: 28px;
   display: flex; align-items: center; gap: 14px;
   animation: fadeUp 0.8s ease both;
@@ -182,7 +182,7 @@ nav.scrolled { border-bottom-color: var(--border2); }
 
 .hero-quote {
   font-family: var(--font-body);
-  font-size: 17px; font-weight: 300; font-style: italic;
+  font-size: 20px; font-weight: 300; font-style: italic;
   color: var(--text-mid); line-height: 1.9;
   max-width: 480px; margin: 0 auto;
   animation: fadeUp 0.8s 0.25s ease both;
@@ -198,8 +198,8 @@ nav.scrolled { border-bottom-color: var(--border2); }
 /* Buttons */
 .btn {
   font-family: var(--font-ui);
-  font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
-  padding: 12px 28px; text-decoration: none;
+  font-size: 14px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  padding: 13px 30px; text-decoration: none;
   transition: all 0.2s; display: inline-block; cursor: pointer;
 }
 
@@ -221,13 +221,13 @@ nav.scrolled { border-bottom-color: var(--border2); }
 
 .hs-val {
   font-family: var(--font-display);
-  font-size: 32px; letter-spacing: 3px; color: var(--white); line-height: 1;
+  font-size: 38px; letter-spacing: 3px; color: var(--white); line-height: 1;
 }
 
 .hs-val sup { color: var(--red); font-size: 0.55em; vertical-align: top; margin-top: 4px; }
 
 .hs-lbl {
-  font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  font-size: 13px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
   color: var(--text-dim); margin-top: 4px;
 }
 
@@ -237,7 +237,7 @@ nav.scrolled { border-bottom-color: var(--border2); }
 section { padding: 88px 56px; }
 
 .sec-eye {
-  font-size: 12px; font-weight: 700; letter-spacing: 5px; text-transform: uppercase;
+  font-size: 14px; font-weight: 700; letter-spacing: 5px; text-transform: uppercase;
   color: var(--red); margin-bottom: 8px;
 }
 
@@ -249,7 +249,7 @@ section { padding: 88px 56px; }
 
 .sec-sub {
   font-family: var(--font-body);
-  font-size: 16px; font-weight: 300;
+  font-size: 18px; font-weight: 300;
   color: var(--text-mid); line-height: 1.7; margin-bottom: 48px;
 }
 
@@ -289,7 +289,7 @@ section { padding: 88px 56px; }
 .day-card.guild { background: linear-gradient(170deg, rgba(26,122,74,.07) 0%, var(--bg3) 50%); }
 
 .day-name {
-  font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  font-size: 13px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
   color: var(--text-dim); margin-bottom: 12px;
 }
 
@@ -297,7 +297,7 @@ section { padding: 88px 56px; }
 
 .day-activity {
   font-family: var(--font-display);
-  font-size: 16px; letter-spacing: 2px; text-align: center; line-height: 1.2; margin-bottom: 10px;
+  font-size: 18px; letter-spacing: 2px; text-align: center; line-height: 1.2; margin-bottom: 10px;
 }
 .day-card.r1    .day-activity { color: #FF6050; }
 .day-card.r2    .day-activity { color: var(--gold); }
@@ -306,7 +306,7 @@ section { padding: 88px 56px; }
 .day-sep { width: 18px; height: 1px; background: var(--border2); margin: 0 auto 10px; }
 
 .day-badge {
-  font-size: 10px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase;
+  font-size: 12px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase;
   padding: 3px 9px; border: 1px solid; margin-bottom: 10px;
 }
 .day-card.r1    .day-badge { background: var(--red-dim);   color: var(--red);   border-color: rgba(232,50,31,.25); }
@@ -315,11 +315,11 @@ section { padding: 88px 56px; }
 
 .day-time {
   font-family: var(--font-display);
-  font-size: 22px; letter-spacing: 2px; color: var(--white);
+  font-size: 26px; letter-spacing: 2px; color: var(--white);
 }
 
 .day-time-sub {
-  font-size: 11px; font-weight: 600; letter-spacing: 2px;
+  font-size: 13px; font-weight: 600; letter-spacing: 2px;
   color: var(--text-dim); margin-top: 2px;
 }
 
@@ -332,7 +332,7 @@ section { padding: 88px 56px; }
 
 .leg {
   display: flex; align-items: center; gap: 8px;
-  font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
   color: var(--text-dim);
 }
 
@@ -352,19 +352,19 @@ footer {
 
 .f-logo {
   font-family: var(--font-display);
-  font-size: 22px; letter-spacing: 8px; color: var(--text-dim);
+  font-size: 26px; letter-spacing: 8px; color: var(--text-dim);
 }
 
 .f-links { display: flex; gap: 24px; }
 
 .f-links a {
-  font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
   color: var(--text-dim); text-decoration: none; transition: color 0.2s;
 }
 
 .f-links a:hover { color: var(--gold); }
 
-.f-copy { font-size: 12px; color: var(--text-dim); letter-spacing: 1px; }
+.f-copy { font-size: 14px; color: var(--text-dim); letter-spacing: 1px; }
 
 /* ══════════════════════════════════
    SCROLL REVEAL
